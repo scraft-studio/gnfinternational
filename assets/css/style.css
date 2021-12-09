@@ -2917,7 +2917,7 @@ div#mCSB_1_container {
   font-size: 22px;
   line-height: 30px;
   font-weight: 700;
-  padding-left: 82px;
+  padding-left: 35px;
   margin-bottom: 8px;
   transition: all 500ms ease;
 }
@@ -2966,7 +2966,7 @@ div#mCSB_1_container {
   padding-left: 0px;
 }
 
-#content_block_4 .content-box .inner-box .single-item .inner h3:before {
+/* #content_block_4 .content-box .inner-box .single-item .inner h3:before {
   position: absolute;
   content: "";
   width: 40px;
@@ -2974,7 +2974,7 @@ div#mCSB_1_container {
   left: 32px;
   top: 19px;
   transition: all 500ms ease;
-}
+} */
 
 #content_block_4 .content-box .inner-box .single-item:hover .inner h3:before {
   opacity: 0;
