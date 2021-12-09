@@ -12883,3 +12883,8 @@ div#mCSB_1_container {
   animation: slide 100s linear infinite;
   -webkit-animation: slide 100s linear infinite;
 }
+
+/* owl style-4 dots none */
+.team-style-four .owl-dots {
+  display: none;
+}
