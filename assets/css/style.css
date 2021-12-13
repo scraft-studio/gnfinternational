@@ -2125,6 +2125,22 @@ div#mCSB_1_container {
   margin-bottom: 28px;
 }
 
+.clients-section.our-clients .clients_wrapper {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+.clients-section.our-clients {
+  padding-top: 120px;
+}
+.clients_wrapper .clients-logo-box {
+  margin-bottom: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.clients_wrapper .logo-title {
+  z-index: 999;
+  bottom: initial !important;
+}
+
 .clients-section .clients-logo-box img {
   display: block;
   max-width: 100%;
@@ -6107,7 +6123,9 @@ div#mCSB_1_container {
   position: relative;
   padding: 95px 0px 120px 0px;
 }
-
+.contactinfo-section p a {
+  color: #766068;
+}
 .contactinfo-section .image-column {
   position: absolute;
   top: 0px;
