@@ -1956,8 +1956,10 @@ div#mCSB_1_container {
 .banner-carousel .content-box h1 {
   position: relative;
   display: block;
-  font-size: 60px;
-  line-height: 68px;
+  /* font-size: 68px; */
+  /* line-height: 68px; */
+  font-size: 35px;
+  line-height: 1.3;
   font-weight: 800;
   margin-bottom: 23px;
   opacity: 0;
