@@ -259,15 +259,14 @@
   // banner-carousel
   if ($(".banner-carousel").length) {
     $(".banner-carousel").owlCarousel({
-      loop: false,
+      loop: true,
       margin: 0,
       nav: true,
       animateOut: "fadeOut",
       animateIn: "fadeIn",
       active: true,
       smartSpeed: 1000,
-      autoplay: false,
-      //   autoplay: 6000,
+      autoplay: 6000,
       navText: [
         '<span class="flaticon-arrowhead-thin-outline-to-the-left"></span>',
         '<span class="flaticon-right-arrow-2"></span>',
