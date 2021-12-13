@@ -747,6 +747,10 @@
     margin: 0 auto;
   }
 
+  #content_block_2 .content-box .image-box img {
+    height: auto !important;
+  }
+
   .rtl .about-section #content_block_3 .content-box {
     padding-right: 30px;
   }
