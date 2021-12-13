@@ -902,8 +902,8 @@
   }
 
   .banner-carousel .content-box h1 {
-    font-size: 40px;
-    line-height: 50px;
+    font-size: 35px;
+    line-height: 1.3;
   }
 
   .clients-section .clients-logo-box .logo-title {
@@ -1644,9 +1644,9 @@
 }
 
 @media only screen and (max-width: 399px) {
-  .banner-carousel .content-box h1 br {
+  /* .banner-carousel .content-box h1 br {
     display: none;
-  }
+  } */
 
   .sec-title h2,
   #content_block_1 .content-box .inner-box h2,
@@ -1657,8 +1657,10 @@
     font-size: 30px;
     line-height: 36px;
   }
-
-  .banner-carousel .content-box h1,
+  .banner-carousel .content-box h1 {
+    font-size: 25px;
+    line-height: 1.3;
+  }
   .banner-section.style-three .banner-carousel .content-box h1 {
     font-size: 32px;
     line-height: 40px;
